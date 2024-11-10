@@ -3,7 +3,7 @@ import cv2
 import numpy as np
 
 #initialization
-face_cascade = cv2.CascadeClassifier('./classifier/faceCascade.xml')
+face_cascade = cv2.CascadeClassifier('./face-detector/classifier/faceCascade.xml')
 camera = cv2.VideoCapture(0)
 
 #detect face
